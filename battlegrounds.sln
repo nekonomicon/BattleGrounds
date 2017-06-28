@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cl_dll", "cl_dll\cl_dll.vcproj", "{F7CDD2BE-047F-42C7-803E-7D92223196E3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bg_dll", "dlls\bg_dll.vcproj", "{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Profile = Profile
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F7CDD2BE-047F-42C7-803E-7D92223196E3}.Debug.ActiveCfg = Debug|Win32
+		{F7CDD2BE-047F-42C7-803E-7D92223196E3}.Debug.Build.0 = Debug|Win32
+		{F7CDD2BE-047F-42C7-803E-7D92223196E3}.Profile.ActiveCfg = Release|Win32
+		{F7CDD2BE-047F-42C7-803E-7D92223196E3}.Profile.Build.0 = Release|Win32
+		{F7CDD2BE-047F-42C7-803E-7D92223196E3}.Release.ActiveCfg = Release|Win32
+		{F7CDD2BE-047F-42C7-803E-7D92223196E3}.Release.Build.0 = Release|Win32
+		{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}.Debug.ActiveCfg = Debug|Win32
+		{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}.Debug.Build.0 = Debug|Win32
+		{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}.Profile.ActiveCfg = Debug|Win32
+		{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}.Profile.Build.0 = Debug|Win32
+		{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}.Release.ActiveCfg = Release|Win32
+		{93F823E5-9E75-4BAB-8A29-A3EDEDB2D97A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

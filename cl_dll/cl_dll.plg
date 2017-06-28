@@ -1,0 +1,330 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: cl_dll - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\BP\LOKALE~1\Temp\RSPBA.tmp" mit Inhalten
+[
+/nologo /G6 /MD /W3 /WX /Gm /Gi /GR /GX /Zi /Od /I "..\utils\vgui\include" /I "..\dlls" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\dlls\bg_rules" /I "..\dlls\weapons" /I "..\dlls\points" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "CLIENT_DLL" /D "CLIENT_WEAPONS" /FAcs /Fa"d:/temp/buildcl_dll/" /FR"d:/temp/buildcl_dll/" /Fp"d:/temp/buildcl_dll/cl_dll.pch" /YX /Fo"d:/temp/buildcl_dll/" /Fd"d:/temp/buildcl_dll/" /FD /c 
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\armlegshot.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\crosshair.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\death.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\health.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hintbox.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_base.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_message.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_middle.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\messages.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\points.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\round_time.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\stamina.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\base_weapon.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\bayonet.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\brown_bess.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\charleville.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\knife.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\melee.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\pennsylvania.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\pistol_a.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\pistol_b.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\revolutionnaire.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\sabre.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ev_bg.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ev_handler.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ev_hldm.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hl\hl_baseentity.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hl\hl_events.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hl\hl_objects.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hl\hl_weapons.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\common\interface.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\voice_banmgr.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\voice_status.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\voice_vgui_tweakdlg.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\pm_shared\pm_debug.c"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\pm_shared\pm_math.c"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\pm_shared\pm_shared.c"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_AmerClassMenu.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_BritClassMenu.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_checkbutton2.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_ConsolePanel.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_CustomObjects.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_grid.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_helpers.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_int.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_listbox.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_loadtga.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_MOTDWindow.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_SchemeManager.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_ScorePanel.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_scrollbar2.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_ServerBrowser.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\vgui_slider2.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_SpectatorPanel.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_TeamFortressViewport.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\vgui_teammenu.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\grass_particle.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\grass_particles.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\mapped_particle.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\mapped_particles.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\particle.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\particle_systems.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\system_manager.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\particles\tga_loader.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ammo.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ammo_secondary.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ammohistory.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\cdll_int.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\com_weapons.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\demo.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\entity.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\ev_common.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\events.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\flashlight.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\GameStudioModelRenderer.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\geiger.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_msg.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_redraw.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_servers.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_spectator.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\hud_update.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\in_camera.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\input.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\inputw32.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\menu.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\message.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\parsemsg.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\saytext.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\soundsystem.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\sprites_to_tri.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\status_icons.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\statusbar.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\studio_util.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\StudioModelRenderer.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\text_message.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\train.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\tri.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\util.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\cl_dll\view.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\BP\LOKALE~1\Temp\RSPBA.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\BP\LOKALE~1\Temp\RSPBB.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib winmm.lib ../utils/vgui/lib/win32_vc6/vgui.lib wsock32.lib OpenGL32.lib glu32.lib /nologo /base:"0xc600000" /subsystem:windows /dll /incremental:yes /pdb:"d:/temp/buildcl_dll/client.pdb" /map:"d:/temp/buildcl_dll/client.map" /debug /machine:I386 /out:"C:\Steam\SteamApps\blackpanther@bgmod.com\half-life\bg-dev\cl_dlls\client.dll" /implib:"d:/temp/buildcl_dll/client.lib" /MAPINFO:LINES /MAPINFO:EXPORTS 
+"d:\temp\buildcl_dll\armlegshot.obj"
+"d:\temp\buildcl_dll\crosshair.obj"
+"d:\temp\buildcl_dll\death.obj"
+"d:\temp\buildcl_dll\health.obj"
+"d:\temp\buildcl_dll\hintbox.obj"
+"d:\temp\buildcl_dll\hud_base.obj"
+"d:\temp\buildcl_dll\hud_message.obj"
+"d:\temp\buildcl_dll\hud_middle.obj"
+"d:\temp\buildcl_dll\messages.obj"
+"d:\temp\buildcl_dll\points.obj"
+"d:\temp\buildcl_dll\round_time.obj"
+"d:\temp\buildcl_dll\stamina.obj"
+"d:\temp\buildcl_dll\base_weapon.obj"
+"d:\temp\buildcl_dll\bayonet.obj"
+"d:\temp\buildcl_dll\brown_bess.obj"
+"d:\temp\buildcl_dll\charleville.obj"
+"d:\temp\buildcl_dll\knife.obj"
+"d:\temp\buildcl_dll\melee.obj"
+"d:\temp\buildcl_dll\pennsylvania.obj"
+"d:\temp\buildcl_dll\pistol_a.obj"
+"d:\temp\buildcl_dll\pistol_b.obj"
+"d:\temp\buildcl_dll\revolutionnaire.obj"
+"d:\temp\buildcl_dll\sabre.obj"
+"d:\temp\buildcl_dll\ev_bg.obj"
+"d:\temp\buildcl_dll\ev_handler.obj"
+"d:\temp\buildcl_dll\ev_hldm.obj"
+"d:\temp\buildcl_dll\hl_baseentity.obj"
+"d:\temp\buildcl_dll\hl_events.obj"
+"d:\temp\buildcl_dll\hl_objects.obj"
+"d:\temp\buildcl_dll\hl_weapons.obj"
+"d:\temp\buildcl_dll\interface.obj"
+"d:\temp\buildcl_dll\voice_banmgr.obj"
+"d:\temp\buildcl_dll\voice_status.obj"
+"d:\temp\buildcl_dll\voice_vgui_tweakdlg.obj"
+"d:\temp\buildcl_dll\pm_debug.obj"
+"d:\temp\buildcl_dll\pm_math.obj"
+"d:\temp\buildcl_dll\pm_shared.obj"
+"d:\temp\buildcl_dll\vgui_AmerClassMenu.obj"
+"d:\temp\buildcl_dll\vgui_BritClassMenu.obj"
+"d:\temp\buildcl_dll\vgui_checkbutton2.obj"
+"d:\temp\buildcl_dll\vgui_ConsolePanel.obj"
+"d:\temp\buildcl_dll\vgui_CustomObjects.obj"
+"d:\temp\buildcl_dll\vgui_grid.obj"
+"d:\temp\buildcl_dll\vgui_helpers.obj"
+"d:\temp\buildcl_dll\vgui_int.obj"
+"d:\temp\buildcl_dll\vgui_listbox.obj"
+"d:\temp\buildcl_dll\vgui_loadtga.obj"
+"d:\temp\buildcl_dll\vgui_MOTDWindow.obj"
+"d:\temp\buildcl_dll\vgui_SchemeManager.obj"
+"d:\temp\buildcl_dll\vgui_ScorePanel.obj"
+"d:\temp\buildcl_dll\vgui_scrollbar2.obj"
+"d:\temp\buildcl_dll\vgui_ServerBrowser.obj"
+"d:\temp\buildcl_dll\vgui_slider2.obj"
+"d:\temp\buildcl_dll\vgui_SpectatorPanel.obj"
+"d:\temp\buildcl_dll\vgui_TeamFortressViewport.obj"
+"d:\temp\buildcl_dll\vgui_teammenu.obj"
+"d:\temp\buildcl_dll\grass_particle.obj"
+"d:\temp\buildcl_dll\grass_particles.obj"
+"d:\temp\buildcl_dll\mapped_particle.obj"
+"d:\temp\buildcl_dll\mapped_particles.obj"
+"d:\temp\buildcl_dll\particle.obj"
+"d:\temp\buildcl_dll\particle_systems.obj"
+"d:\temp\buildcl_dll\system_manager.obj"
+"d:\temp\buildcl_dll\tga_loader.obj"
+"d:\temp\buildcl_dll\ammo.obj"
+"d:\temp\buildcl_dll\ammo_secondary.obj"
+"d:\temp\buildcl_dll\ammohistory.obj"
+"d:\temp\buildcl_dll\cdll_int.obj"
+"d:\temp\buildcl_dll\com_weapons.obj"
+"d:\temp\buildcl_dll\demo.obj"
+"d:\temp\buildcl_dll\entity.obj"
+"d:\temp\buildcl_dll\ev_common.obj"
+"d:\temp\buildcl_dll\events.obj"
+"d:\temp\buildcl_dll\flashlight.obj"
+"d:\temp\buildcl_dll\GameStudioModelRenderer.obj"
+"d:\temp\buildcl_dll\geiger.obj"
+"d:\temp\buildcl_dll\hud.obj"
+"d:\temp\buildcl_dll\hud_msg.obj"
+"d:\temp\buildcl_dll\hud_redraw.obj"
+"d:\temp\buildcl_dll\hud_servers.obj"
+"d:\temp\buildcl_dll\hud_spectator.obj"
+"d:\temp\buildcl_dll\hud_update.obj"
+"d:\temp\buildcl_dll\in_camera.obj"
+"d:\temp\buildcl_dll\input.obj"
+"d:\temp\buildcl_dll\inputw32.obj"
+"d:\temp\buildcl_dll\menu.obj"
+"d:\temp\buildcl_dll\message.obj"
+"d:\temp\buildcl_dll\parsemsg.obj"
+"d:\temp\buildcl_dll\saytext.obj"
+"d:\temp\buildcl_dll\soundsystem.obj"
+"d:\temp\buildcl_dll\sprites_to_tri.obj"
+"d:\temp\buildcl_dll\status_icons.obj"
+"d:\temp\buildcl_dll\statusbar.obj"
+"d:\temp\buildcl_dll\studio_util.obj"
+"d:\temp\buildcl_dll\StudioModelRenderer.obj"
+"d:\temp\buildcl_dll\text_message.obj"
+"d:\temp\buildcl_dll\train.obj"
+"d:\temp\buildcl_dll\tri.obj"
+"d:\temp\buildcl_dll\util.obj"
+"d:\temp\buildcl_dll\view.obj"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\BP\LOKALE~1\Temp\RSPBB.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+armlegshot.cpp
+crosshair.cpp
+death.cpp
+health.cpp
+hintbox.cpp
+hud_base.cpp
+hud_message.cpp
+hud_middle.cpp
+messages.cpp
+points.cpp
+round_time.cpp
+stamina.cpp
+base_weapon.cpp
+bayonet.cpp
+brown_bess.cpp
+charleville.cpp
+knife.cpp
+melee.cpp
+pennsylvania.cpp
+pistol_a.cpp
+pistol_b.cpp
+revolutionnaire.cpp
+sabre.cpp
+ev_bg.cpp
+ev_handler.cpp
+ev_hldm.cpp
+hl_baseentity.cpp
+hl_events.cpp
+hl_objects.cpp
+hl_weapons.cpp
+interface.cpp
+voice_banmgr.cpp
+voice_status.cpp
+voice_vgui_tweakdlg.cpp
+pm_debug.c
+pm_math.c
+pm_shared.c
+vgui_AmerClassMenu.cpp
+vgui_BritClassMenu.cpp
+vgui_checkbutton2.cpp
+vgui_ConsolePanel.cpp
+vgui_CustomObjects.cpp
+vgui_grid.cpp
+vgui_helpers.cpp
+vgui_int.cpp
+vgui_listbox.cpp
+vgui_loadtga.cpp
+vgui_MOTDWindow.cpp
+vgui_SchemeManager.cpp
+vgui_ScorePanel.cpp
+vgui_scrollbar2.cpp
+vgui_ServerBrowser.cpp
+vgui_slider2.cpp
+vgui_SpectatorPanel.cpp
+vgui_TeamFortressViewport.cpp
+vgui_teammenu.cpp
+grass_particle.cpp
+grass_particles.cpp
+mapped_particle.cpp
+mapped_particles.cpp
+particle.cpp
+particle_systems.cpp
+system_manager.cpp
+tga_loader.cpp
+ammo.cpp
+ammo_secondary.cpp
+ammohistory.cpp
+cdll_int.cpp
+com_weapons.cpp
+demo.cpp
+entity.cpp
+ev_common.cpp
+events.cpp
+flashlight.cpp
+GameStudioModelRenderer.cpp
+geiger.cpp
+hud.cpp
+hud_msg.cpp
+hud_redraw.cpp
+hud_servers.cpp
+hud_spectator.cpp
+hud_update.cpp
+in_camera.cpp
+input.cpp
+inputw32.cpp
+menu.cpp
+message.cpp
+parsemsg.cpp
+saytext.cpp
+soundsystem.cpp
+sprites_to_tri.cpp
+status_icons.cpp
+statusbar.cpp
+studio_util.cpp
+StudioModelRenderer.cpp
+text_message.cpp
+train.cpp
+tri.cpp
+util.cpp
+view.cpp
+Linker-Vorgang läuft...
+   Bibliothek d:/temp/buildcl_dll/client.lib und Objekt d:/temp/buildcl_dll/client.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+client.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

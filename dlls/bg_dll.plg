@@ -1,0 +1,264 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: hl - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB3.tmp" mit Inhalten
+[
+/nologo /G6 /MD /W4 /WX /Gi /GR /GX /Zi /O2 /Ob0 /I "..\game_shared" /I "..\dlls" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\dlls\bg_rules" /I "..\dlls\weapons" /I "..\dlls\points" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "QUIVER" /D "VOXEL" /D "QUAKE2" /D "VALVE_DLL" /D "CLIENT_WEAPONS" /FAcs /Fa"d:/temp/builddll/" /Fr"d:/temp/builddll/" /Fp"d:/temp/builddll/bg_dll.pch" /YX /Fo"d:/temp/builddll/" /Fd"d:/temp/builddll/" /FD /c 
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\base_weapon.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\bayonet.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\brown_bess.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\charleville.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\ggrenade.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\knife.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\melee.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\pennsylvania.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\pistol_a.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\pistol_b.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\revolutionnaire.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\sabre.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\weapons\weapons.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\ammo_ents.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_class.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_observer.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_respawnwaves.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_round.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_round_container.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_roundrules.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_rules.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\bg_teams.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\info_reset.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\points\point_win.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\progressive_spawning.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\points\base_point.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\points\capture_point.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\points\point_manager.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\points\point_model.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\animating.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bmodels.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\buttons.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\cbase.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\client.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\combat.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\doors.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\effects.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\explode.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\func_break.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\func_grass.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\func_tank.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\game.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\gamerules.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\globals.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\h_ai.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\h_cycler.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\h_export.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\items.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\lights.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\maprules.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\mortar.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\mpstubb.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\multiplay_gamerules.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\bg_rules\origin_tracker.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\particle_emitter.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\pathcorner.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\plane.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\plats.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\player.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\singleplay_gamerules.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\skill.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\sound.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\soundent.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\spectator.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\subs.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\triggers.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\util.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\game_shared\voice_gamemgr.cpp"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\world.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB3.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB4.tmp" mit Inhalten
+[
+/nologo /G6 /MD /W3 /WX /Gi /GR /GX /Zi /O2 /Ob0 /I "..\game_shared" /I "..\dlls" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\dlls\bg_rules" /I "..\dlls\weapons" /I "..\dlls\points" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "QUIVER" /D "VOXEL" /D "QUAKE2" /D "VALVE_DLL" /D "CLIENT_WEAPONS" /FAcs /Fa"d:/temp/builddll/" /Fr"d:/temp/builddll/" /Fp"d:/temp/builddll/bg_dll.pch" /YX /Fo"d:/temp/builddll/" /Fd"d:/temp/builddll/" /FD /c 
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\pm_shared\pm_debug.c"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\pm_shared\pm_math.c"
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\pm_shared\pm_shared.c"
+]
+Creating command line "cl.exe @C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB4.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB5.tmp" mit Inhalten
+[
+/nologo /G6 /MD /W3 /Gi /GR /GX /Zi /O2 /Ob0 /I "..\game_shared" /I "..\dlls" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\dlls\bg_rules" /I "..\dlls\weapons" /I "..\dlls\points" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "QUIVER" /D "VOXEL" /D "QUAKE2" /D "VALVE_DLL" /D "CLIENT_WEAPONS" /FAcs /Fa"d:/temp/builddll/" /Fr"d:/temp/builddll/" /Fp"d:/temp/builddll/bg_dll.pch" /YX /Fo"d:/temp/builddll/" /Fd"d:/temp/builddll/" /FD /c 
+"E:\battlegrounds\source\hetzner svn repos\battlegrounds\dlls\animation.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB5.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB6.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /base:"0xc700000" /subsystem:windows /dll /incremental:yes /pdb:"d:/temp/builddll/bg.pdb" /map:"d:/temp/builddll/bg.map" /debug /machine:I386 /def:".\bg.def" /out:"C:\Steam\SteamApps\blackpanther@bgmod.com\half-life\bg-dev\dlls\bg.dll" /implib:"d:/temp/builddll/bg.lib" /MAPINFO:LINES /MAPINFO:EXPORTS 
+"d:\temp\builddll\base_weapon.obj"
+"d:\temp\builddll\bayonet.obj"
+"d:\temp\builddll\brown_bess.obj"
+"d:\temp\builddll\charleville.obj"
+"d:\temp\builddll\ggrenade.obj"
+"d:\temp\builddll\knife.obj"
+"d:\temp\builddll\melee.obj"
+"d:\temp\builddll\pennsylvania.obj"
+"d:\temp\builddll\pistol_a.obj"
+"d:\temp\builddll\pistol_b.obj"
+"d:\temp\builddll\revolutionnaire.obj"
+"d:\temp\builddll\sabre.obj"
+"d:\temp\builddll\weapons.obj"
+"d:\temp\builddll\ammo_ents.obj"
+"d:\temp\builddll\bg_class.obj"
+"d:\temp\builddll\bg_observer.obj"
+"d:\temp\builddll\bg_respawnwaves.obj"
+"d:\temp\builddll\bg_round.obj"
+"d:\temp\builddll\bg_round_container.obj"
+"d:\temp\builddll\bg_roundrules.obj"
+"d:\temp\builddll\bg_rules.obj"
+"d:\temp\builddll\bg_teams.obj"
+"d:\temp\builddll\info_reset.obj"
+"d:\temp\builddll\point_win.obj"
+"d:\temp\builddll\progressive_spawning.obj"
+"d:\temp\builddll\pm_debug.obj"
+"d:\temp\builddll\pm_math.obj"
+"d:\temp\builddll\pm_shared.obj"
+"d:\temp\builddll\base_point.obj"
+"d:\temp\builddll\capture_point.obj"
+"d:\temp\builddll\point_manager.obj"
+"d:\temp\builddll\point_model.obj"
+"d:\temp\builddll\animating.obj"
+"d:\temp\builddll\animation.obj"
+"d:\temp\builddll\bmodels.obj"
+"d:\temp\builddll\buttons.obj"
+"d:\temp\builddll\cbase.obj"
+"d:\temp\builddll\client.obj"
+"d:\temp\builddll\combat.obj"
+"d:\temp\builddll\doors.obj"
+"d:\temp\builddll\effects.obj"
+"d:\temp\builddll\explode.obj"
+"d:\temp\builddll\func_break.obj"
+"d:\temp\builddll\func_grass.obj"
+"d:\temp\builddll\func_tank.obj"
+"d:\temp\builddll\game.obj"
+"d:\temp\builddll\gamerules.obj"
+"d:\temp\builddll\globals.obj"
+"d:\temp\builddll\h_ai.obj"
+"d:\temp\builddll\h_cycler.obj"
+"d:\temp\builddll\h_export.obj"
+"d:\temp\builddll\items.obj"
+"d:\temp\builddll\lights.obj"
+"d:\temp\builddll\maprules.obj"
+"d:\temp\builddll\mortar.obj"
+"d:\temp\builddll\mpstubb.obj"
+"d:\temp\builddll\multiplay_gamerules.obj"
+"d:\temp\builddll\origin_tracker.obj"
+"d:\temp\builddll\particle_emitter.obj"
+"d:\temp\builddll\pathcorner.obj"
+"d:\temp\builddll\plane.obj"
+"d:\temp\builddll\plats.obj"
+"d:\temp\builddll\player.obj"
+"d:\temp\builddll\singleplay_gamerules.obj"
+"d:\temp\builddll\skill.obj"
+"d:\temp\builddll\sound.obj"
+"d:\temp\builddll\soundent.obj"
+"d:\temp\builddll\spectator.obj"
+"d:\temp\builddll\subs.obj"
+"d:\temp\builddll\triggers.obj"
+"d:\temp\builddll\util.obj"
+"d:\temp\builddll\voice_gamemgr.obj"
+"d:\temp\builddll\world.obj"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\BP\LOKALE~1\Temp\RSPB6.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+Befehlszeilenwarnung D4002 : Unbekannte Option '/Ob0' wird ignoriert
+base_weapon.cpp
+bayonet.cpp
+brown_bess.cpp
+charleville.cpp
+ggrenade.cpp
+knife.cpp
+melee.cpp
+pennsylvania.cpp
+pistol_a.cpp
+pistol_b.cpp
+revolutionnaire.cpp
+sabre.cpp
+weapons.cpp
+ammo_ents.cpp
+bg_class.cpp
+bg_observer.cpp
+bg_respawnwaves.cpp
+bg_round.cpp
+bg_round_container.cpp
+bg_roundrules.cpp
+bg_rules.cpp
+bg_teams.cpp
+info_reset.cpp
+point_win.cpp
+progressive_spawning.cpp
+base_point.cpp
+capture_point.cpp
+point_manager.cpp
+point_model.cpp
+animating.cpp
+bmodels.cpp
+buttons.cpp
+cbase.cpp
+client.cpp
+combat.cpp
+doors.cpp
+effects.cpp
+explode.cpp
+func_break.cpp
+func_grass.cpp
+func_tank.cpp
+game.cpp
+gamerules.cpp
+globals.cpp
+h_ai.cpp
+h_cycler.cpp
+h_export.cpp
+items.cpp
+lights.cpp
+maprules.cpp
+mortar.cpp
+mpstubb.cpp
+multiplay_gamerules.cpp
+origin_tracker.cpp
+particle_emitter.cpp
+pathcorner.cpp
+plane.cpp
+plats.cpp
+player.cpp
+singleplay_gamerules.cpp
+skill.cpp
+sound.cpp
+soundent.cpp
+spectator.cpp
+subs.cpp
+triggers.cpp
+util.cpp
+voice_gamemgr.cpp
+world.cpp
+Kompilierung läuft...
+Befehlszeilenwarnung D4002 : Unbekannte Option '/Ob0' wird ignoriert
+pm_debug.c
+pm_math.c
+pm_shared.c
+Kompilierung läuft...
+Befehlszeilenwarnung D4002 : Unbekannte Option '/Ob0' wird ignoriert
+animation.cpp
+Linker-Vorgang läuft...
+   Bibliothek d:/temp/builddll/bg.lib und Objekt d:/temp/builddll/bg.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+bg.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/*
+    Copyright 2001 to 2004. The Battle Grounds Team and Contributors
+
+    This file is part of the Battle Grounds Modification for Half-Life.
+
+    The Battle Grounds Modification for Half-Life is free software;
+    you can redistribute it and/or modify it under the terms of the
+    GNU Lesser General Public License as published by the Free
+    Software Foundation; either version 2.1 of the License, or
+    (at your option) any later version.
+
+    The Battle Grounds Modification for Half-Life is distributed in
+    the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+    even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+    PARTICULAR PURPOSE.  See the GNU Lesser General Public License
+    for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with The Battle Grounds Modification for Half-Life;
+    if not, write to the Free Software Foundation, Inc., 59 Temple Place,
+    Suite 330, Boston, MA  02111-1307  USA
+
+    You must obey the GNU Lesser General Public License in all respects for
+    all of the code used other than code distributed with the Half-Life
+    SDK developed by Valve.  If you modify this file, you may extend this
+    exception to your version of the file, but you are not obligated to do so.
+    If you do not wish to do so, delete this exception statement from your
+    version.
+*/
+
+/***
+*
+*	Copyright (c) 1996-2001, Valve LLC. All rights reserved.
+*	
+*	This product contains software technology licensed from Id 
+*	Software, Inc. ("Id Technology").  Id Technology (c) 1996 Id Software, Inc. 
+*	All Rights Reserved.
+*
+*   Use, distribution, and modification of this source code and/or resulting
+*   object code is restricted to non-commercial enhancements to products from
+*   Valve LLC.  All other use, distribution, or modification is prohibited
+*   without written permission from Valve LLC.
+*
+****/
+/*
+
+===== globals.cpp ========================================================
+
+  DLL-wide global variable definitions.
+  They're all defined here, for convenient centralization.
+  Source files that need them should "extern ..." declare each
+  variable, to better document what globals they care about.
+*/
+
+#include "extdll.h"
+#include "util.h"
+#include "cbase.h"
+#include "soundent.h"
+
+DLL_GLOBAL ULONG		g_ulFrameCount;
+DLL_GLOBAL ULONG		g_ulModelIndexEyes;
+DLL_GLOBAL ULONG		g_ulModelIndexPlayer;
+DLL_GLOBAL Vector		g_vecAttackDir;
+DLL_GLOBAL int			g_iSkillLevel;
+DLL_GLOBAL int			gDisplayTitle;
+DLL_GLOBAL bool			g_fGameOver;
+DLL_GLOBAL const Vector	g_vecZero = Vector(0,0,0);
+DLL_GLOBAL int			g_Language;
+// Ben Addition to Raiko Contrib - Melee Only
+DLL_GLOBAL float		g_flMeleeOnly = 0;
+// Ben
+// Raiko Contrib - Stationary Reload
+DLL_GLOBAL float		g_flStationaryReload = 0;
+// Raiko End
+// BP LaserTag
+DLL_GLOBAL float		g_flLaserTag = 0;

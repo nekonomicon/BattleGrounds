@@ -1,0 +1,11 @@
+LIBRARY bg
+EXPORTS
+	GiveFnptrsToDll			@1
+	ClientKill				@2
+	PlayerPreThink			@3
+	PlayerPostThink			@4
+	ClientConnect			@5
+	ClientDisconnect		@6
+	StartFrame				@7
+SECTIONS
+	.data READ WRITE
